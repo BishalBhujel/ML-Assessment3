@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
 
-dataset_path = "/Users/bishalbhujel/Desktop/ML_Assessment3/datasets"
+dataset_path = "datasets"
 datasets = {}
 
 for file_name in os.listdir(dataset_path):
