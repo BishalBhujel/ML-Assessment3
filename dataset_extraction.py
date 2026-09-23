@@ -8,7 +8,7 @@ path = kagglehub.dataset_download("adityamhaske/bank-marketing-dataset")
 print("Downloaded to:", path)
 
 # Destination folder
-destination = "datasets"
+destination = "/Users/bishalbhujel/Desktop/ML_Assessment3/datasets"
 
 # Create destination folder if it doesn't exist
 os.makedirs(destination, exist_ok=True)
