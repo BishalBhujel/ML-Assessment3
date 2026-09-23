@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-dataset_path = "/Users/bishalbhujel/Desktop/ML_Assessment3/datasets"
+dataset_path = os.getcwd() + "/datasets"
 print(os.listdir(dataset_path))
 
 for file_name in os.listdir(dataset_path):
